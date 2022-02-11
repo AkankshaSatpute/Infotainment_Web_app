@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" href="MyStyle.css">
+<script>
+
+function validateForm() {
+  let x = document.forms["myForm"]["email1"]["pwd"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+
+<body >
+
+<form class ="c1" name="myForm" method="post" action="profile.html" onsubmit="return validateForm()" >
+<br/>
+<b><h1>Welcome to My website!</h1></b>
+<label class ="login" style="text-align:center;"><strong > Please Login </strong></label><br/><br/><br/>
+
+<label class="label" ><strong>Email</strong></label><br/>
+<input type ="text"  name="email1" class="email" id="myemail" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" title="must be in string@gmail.com orstring@gmail.in " required="" ><br/><br/>
+
+<label class="label" ><strong>Password</strong></label><br/>
+<input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[*!@#$%&])(?=.*[A-Z]).{6,}" title="Must contain at least one number,one special character and one uppercase and lowercase letter, and at least 6 or atmost 20 characters " class="pass" required="" >
+ 
+<br/><br/><br/>
+  
+  <input type="submit" value="Sign In" class ="signin" style="background-color:blue;"></input>
+
+<br/><br/><br/>
+<a href="new_accont.html">Don't have an account ? create new account</a>
+</form>
+
+
+</body>
+</html>

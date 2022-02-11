@@ -1,0 +1,74 @@
+body{
+background-color:#E5E5E5;
+
+}
+
+.c1{
+  
+border: 3px solid white;  
+height: 436px;
+width: 457px;
+left: 528px;
+top: 211px;
+margin-left:380px;
+margin-top:60px;
+border-radius: 7px;
+text-align:center;
+background-color:white;
+font-style-size:10px;
+}
+.c2{
+  
+ 
+height: 360px;
+width: 550px;
+left: 528px;
+top: 211px;
+margin-left:380px;
+margin-top:60px;
+border-radius: 7px;
+text-align:center;
+background-color:white;
+font-style-size:10px;
+}
+
+.login{
+height: 23px;
+width: 104px;
+left: 704px;
+top: 242px;
+
+}
+
+.email{
+height: 45px;
+width: 392px;
+left: 560px;
+top: 352px;
+border-radius: 7px;
+align: center;
+}
+
+.pass{
+height: 45px;
+width: 392px;
+left: 560px;
+top: 435px;
+border-radius: 7px;
+align: center;
+}
+
+.signin{
+height: 40px;
+width: 392px;
+left: 560px;
+top: 518px;
+border-radius: 7px;
+padding: 0px, 24px, 0px, 24px;
+
+}
+
+.label{
+text-align: left;
+}
+

@@ -1,0 +1,115 @@
+<html>
+<head>
+<style> 
+
+.signin{
+height: 40px;
+width: 392px;
+left: 560px;
+top: 518px;
+border-radius: 7px;
+padding: 0px, 24px, 0px, 24px;
+background-color:blue;
+font-size:25px;
+}
+
+
+
+.img
+{
+width: 35px;
+height: 25px;
+left: 1502px;
+top: 10px;
+margin-left:100px;
+
+border: 0.5px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 169px;
+
+}
+.i
+{
+width: 170px;
+height: 20px;
+left: 50px;
+top: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 28px;
+margin-left:50px;
+color: #5714AC;
+
+}
+
+.n
+{
+width: 1512px;
+height: 30px;
+left: 0px;
+top: 0px;
+position:absolute;
+background:#F5F5F5;
+}
+
+</style>
+</head>
+
+<body style="background-color:#E5E5E5;">
+<div class="n">
+	<a ><img src="Snapchat-1031988695 (2).jpg" class="img"\></a>
+  	<a class="i" >Welcome To My Website</a>
+	
+	</div>
+
+<form name="myform" style="font-size:25px; margin-top:40px;" >
+
+
+	
+
+
+	<span style="color:blue; margin-top:30px;">Q1). Who is Prime Minister of India ? </span><br>
+	<input type ="radio" name="q1" value="A">Narendra Modi<br>
+	<input type ="radio" name="q1" value="B">Udhhav Thakre<br>
+	<input type ="radio" name="q1" value="C">Rahul Gandi<br><br>
+	
+	<span style="color:blue">Q2). What is death date of Lata Mangeshkar?</span> <br>
+	<input type ="radio" name="q2" value="A">10 feb 2022<br>
+	<input type ="radio" name="q2" value="B">6 feb 2022<br>
+	<input type ="radio" name="q2" value="C">8 feb 2022<br><br>
+	
+	<span style="color:blue">Q3). Who is Captain of Indian cricket team?</span> <br>
+	<input type ="radio" name="q3" value="A">Mahendra-singh Dhoni<br>
+	<input type ="radio" name="q3" value="B">Virat Kohali <br>
+	<input type ="radio" name="q3" value="C">Rohit Sharma<br><br>
+<input type="button" value="submit " onclick="check()" class="signin">
+<button type="button" onclick="window.location.href='page2.html'" class="signin">Go Back</button>
+</form>
+<script>
+	function check(){
+	var q1 =document.myform.q1.value;
+	var q2 =document.myform.q2.value;
+	var q3 =document.myform.q3.value;
+	var count =0;
+	if(q1=="A")
+	{
+	count++;
+	}
+
+	if(q2=="B")
+	{
+	count++;
+	}
+	if(q3=="B")
+	{
+	count++;
+	}
+
+	alert("Your Score is "+count+" ");
+	}
+</script>
+</body>
+</html>

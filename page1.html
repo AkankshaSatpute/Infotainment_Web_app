@@ -1,0 +1,139 @@
+<html>
+<head>
+
+<script>
+var loadFile = function (event) {
+  var image = document.getElementById("output");
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+
+
+
+<style>
+div
+{
+width: 289px;
+height: 383px;
+left: 50px;
+top: 182px;
+margin-top:90px;
+background: #F5F5F5;
+border-radius: 7px;
+}
+
+.b
+{
+
+width: 166px;
+height: 166px;
+left: 103px;
+top: 211px;
+margin-left:50px;
+margin-top:22px;
+border: 2.46875px solid #DFDFDF;
+box-sizing: border-box;
+border-radius: 169px;
+}
+
+.edit
+{
+position: static;
+width: 100px;
+height: 15px;
+left: 24px;
+top: 12px;
+line-height: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+text-align: center;
+background-color:white;
+
+}
+.d1
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 24px;
+
+
+width: 148px;
+height: 40px;
+left: 115px;
+top: 487px;
+
+background: #4F00C1;
+border-radius: 7px;
+margin-top:60px;
+margin-left:30px;
+}
+
+.i{
+
+margin-left:50px;
+width: 127px;
+height: 21px;
+left: 131px;
+top: 405px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #1B1B1B;
+}
+
+
+
+
+.email
+{
+margin-left:50px;
+
+width: 149px;
+height: 12px;
+left: 120px;
+top: 437px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+color: #000000;
+}
+</style>
+</head>
+
+<body >
+
+<div>
+
+
+
+<img src="Snapchat-1031988695 (2).jpg" alt="profile_photo" class="b" id="output"\>
+
+
+<br><br>
+<span class="i" >Akanksha Satpute</span><br><br>
+<span class="email">sadie.someone@email.com</span>
+<div class ="d1">
+
+<label class ="edit" >
+    <input id="file"   type="file" onchange="loadFile(event)" accept="image/*"/ " style ="display:none;">
+    Edit Profile
+</label>
+
+
+
+
+</button></div>
+</div></form>
+
+</body>
+</html>
